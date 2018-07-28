@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Ảnh">
+        <menu>
+            <item
+                android:id="@+id/VietNamSexy"
+                android:icon="@drawable/sex1"
+                android:title="VietNamSexy" />
+            <item
+                android:id="@+id/imageAnhHai"
+                android:icon="@drawable/camera"
+                android:title="Ảnh Hài" />
+        </menu>
+    </item>
+
+
+    <item android:title="Video">
+        <menu>
+            <item
+                android:id="@+id/vdGaiXinh"
+                android:icon="@drawable/video_player"
+                android:title="Gái Xinh" />
+            <item
+                android:id="@+id/vdTrollHai"
+                android:icon="@drawable/vimeo_logo"
+                android:title="Troll Hài" />
+        </menu>
+    </item>
+    <item android:title="Giáo Dục">
+        <menu>
+            <item
+                android:id="@+id/giao_duc_gt"
+                android:icon="@drawable/sex"
+                android:title="Giới tính" />
+        </menu>
+    </item>
+</menu>
